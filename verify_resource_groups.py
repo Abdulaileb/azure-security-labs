@@ -34,6 +34,11 @@ def main() -> int:
         print(f"ERROR: {error}", file=sys.stderr)
         return 1
 
+    ### Adding the save function of the file
+    with open("mytest.txt", "w") as f:
+        f.write(json.dumps(groups, indent=2))
+        
+
     print(json.dumps(groups, indent=2))
     return 0
 

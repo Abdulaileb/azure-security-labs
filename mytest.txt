@@ -1,0 +1,38 @@
+[
+  {
+    "location": "francecentral",
+    "name": "MyPersonal_Lab",
+    "state": "Succeeded",
+    "tags": null
+  },
+  {
+    "location": "francecentral",
+    "name": "MyDev",
+    "state": "Succeeded",
+    "tags": {
+      "CostCenter": "Security",
+      "Environment": "Dev",
+      "Owner": "Abdulai"
+    }
+  },
+  {
+    "location": "francecentral",
+    "name": "MyTest",
+    "state": "Succeeded",
+    "tags": {
+      "CostCenter": "Secuirty",
+      "Environments": "Test",
+      "Owner": "Abdulai"
+    }
+  },
+  {
+    "location": "francecentral",
+    "name": "MyProd",
+    "state": "Succeeded",
+    "tags": {
+      "CostCenter": "Security",
+      "Enviornment": "Prod",
+      "Owner": "Abdulai"
+    }
+  }
+]
